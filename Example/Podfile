@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'TPExFaceDetect_Example' do
+  pod 'TPExFaceDetect', :path => '../'
+
+  target 'TPExFaceDetect_Tests' do
+    inherit! :search_paths
+  end
+end

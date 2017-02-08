@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32C4E375B37A5F3326B3EF0A9A7F044A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		552AF0FEF380636DE44CBC3B19E58AC8 /* Pods-TPExFaceDetect_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4C8E58356449DF3C2BF57F0678B7EF /* Pods-TPExFaceDetect_Tests-dummy.m */; };
+		56457C23604C2A55844264AD1F9F853A /* Pods-TPExFaceDetect_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7380A3FF88CEE5D0AE8AD6C16E35F3ED /* Pods-TPExFaceDetect_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5755312B9ABDF802107219E94F113E2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		96015B4FD6C08CDB2751074F1602C464 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9E37D0FEB83BB6AE4EB151D81D50DED9 /* Pods-TPExFaceDetect_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B94BA7E2AA4E29D43E81B8B5FFA42466 /* Pods-TPExFaceDetect_Example-dummy.m */; };
+		A8568D369BC7A6160AB1A476AEDF4418 /* TPExFaceDetect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 215259A970B72BE0DC4425A2C948FAE7 /* TPExFaceDetect-dummy.m */; };
+		AE42BFA71E4ACA9300FD351E /* HTJCFaceBaseSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE42BFA51E4ACA9300FD351E /* HTJCFaceBaseSdk.framework */; };
+		AE42BFA81E4ACA9300FD351E /* HTJCFaceLiveDetectSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE42BFA61E4ACA9300FD351E /* HTJCFaceLiveDetectSdk.framework */; };
+		AE42BFAB1E4ACACE00FD351E /* TPExFaceDetect.h in Headers */ = {isa = PBXBuildFile; fileRef = AE42BFA91E4ACACE00FD351E /* TPExFaceDetect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE42BFAC1E4ACACE00FD351E /* TPExFaceDetect.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE42BFAA1E4ACACE00FD351E /* TPExFaceDetect.mm */; };
+		B61DEDFBCF8AD61B1FAA7F1A4746D91A /* Pods-TPExFaceDetect_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9423493E07032739547D56F3BC6CCFF /* Pods-TPExFaceDetect_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3F544688AFB7D9F8B6B7218DAF92AD4 /* TPExFaceDetect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1BE5A698733ABB9CE592FEB276056FF /* TPExFaceDetect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC97679B47F5223C4E53EFD12865C6EA /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE8D107FD35DC8FD07B4E7977F4F7BD /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F0AD61A02C3ECB79FE14DAAAEF3EEDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7660BB140AD168585FD2DDD0C9FB3261;
+			remoteInfo = TPExFaceDetect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A8AD0C5BC8329CC039980BD695E9F77 /* Pods_TPExFaceDetect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPExFaceDetect_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA45C0F90B0C3ED08F50176A60E302D /* Pods-TPExFaceDetect_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPExFaceDetect_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		215259A970B72BE0DC4425A2C948FAE7 /* TPExFaceDetect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPExFaceDetect-dummy.m"; sourceTree = "<group>"; };
+		2BA97C0A2211DF3F0E19EE68E6CB1338 /* TPExFaceDetect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TPExFaceDetect.modulemap; sourceTree = "<group>"; };
+		4ED3288D6D0BDF5C46BB8CDC2B597C1B /* Pods-TPExFaceDetect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPExFaceDetect_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5354E17506D57219188748067F49476B /* Pods-TPExFaceDetect_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TPExFaceDetect_Example.modulemap"; sourceTree = "<group>"; };
+		542C5DDF97021D7B607C8AA63E0E824F /* Pods-TPExFaceDetect_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TPExFaceDetect_Tests.modulemap"; sourceTree = "<group>"; };
+		56790A48002E1BDC3F9349FC38B0F7CA /* Pods-TPExFaceDetect_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPExFaceDetect_Example-resources.sh"; sourceTree = "<group>"; };
+		5684417862B97486F18148837C59A28C /* Pods-TPExFaceDetect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPExFaceDetect_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7380A3FF88CEE5D0AE8AD6C16E35F3ED /* Pods-TPExFaceDetect_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPExFaceDetect_Tests-umbrella.h"; sourceTree = "<group>"; };
+		782AD551D3E88BCE268D0A026759E191 /* Pods-TPExFaceDetect_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPExFaceDetect_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		78A7E3C666E0F3E1B3665933E6D706A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4C8E58356449DF3C2BF57F0678B7EF /* Pods-TPExFaceDetect_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPExFaceDetect_Tests-dummy.m"; sourceTree = "<group>"; };
+		83B2FBE7FB908EC5E56556614BDB70E8 /* TPExFaceDetect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPExFaceDetect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB9BA763183BFF616CAEBCF4AE8FE51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F88BF3B155CDD5C4EB14E24A42E6302 /* Pods-TPExFaceDetect_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPExFaceDetect_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9483630B90B9EEE3EFC988A041DBA133 /* Pods-TPExFaceDetect_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPExFaceDetect_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99B1294D8790EA65A1291ADECA095301 /* TPExFaceDetect.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPExFaceDetect.xcconfig; sourceTree = "<group>"; };
+		A0E53E8A8030C7EBC6D7433932101E70 /* TPExFaceDetect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPExFaceDetect-prefix.pch"; sourceTree = "<group>"; };
+		A25E5B74111642A510D901AD1E4B5FFC /* Pods_TPExFaceDetect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPExFaceDetect_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE42BFA51E4ACA9300FD351E /* HTJCFaceBaseSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HTJCFaceBaseSdk.framework; sourceTree = "<group>"; };
+		AE42BFA61E4ACA9300FD351E /* HTJCFaceLiveDetectSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HTJCFaceLiveDetectSdk.framework; sourceTree = "<group>"; };
+		AE42BFA91E4ACACE00FD351E /* TPExFaceDetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPExFaceDetect.h; sourceTree = "<group>"; };
+		AE42BFAA1E4ACACE00FD351E /* TPExFaceDetect.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TPExFaceDetect.mm; sourceTree = "<group>"; };
+		B94BA7E2AA4E29D43E81B8B5FFA42466 /* Pods-TPExFaceDetect_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPExFaceDetect_Example-dummy.m"; sourceTree = "<group>"; };
+		BE4732454627CBAFB267BDD7E31EFCA8 /* Pods-TPExFaceDetect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPExFaceDetect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0A776FB573ACB085F2470806C2CDB18 /* Pods-TPExFaceDetect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPExFaceDetect_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C3746F7DBDD5674012C624827218FC56 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D8705DECFCF6B56567D5F1EE76D30E1E /* Pods-TPExFaceDetect_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPExFaceDetect_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DEE8D107FD35DC8FD07B4E7977F4F7BD /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		EF7263F8EECC89064360CB75FDC00385 /* Pods-TPExFaceDetect_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPExFaceDetect_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1BE5A698733ABB9CE592FEB276056FF /* TPExFaceDetect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPExFaceDetect-umbrella.h"; sourceTree = "<group>"; };
+		F4E49FD504FA2E83C365F62AE322B50A /* Pods-TPExFaceDetect_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPExFaceDetect_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F9423493E07032739547D56F3BC6CCFF /* Pods-TPExFaceDetect_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPExFaceDetect_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0044E6950433FA3DD46F7F6BA479E909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE42BFA81E4ACA9300FD351E /* HTJCFaceLiveDetectSdk.framework in Frameworks */,
+				AE42BFA71E4ACA9300FD351E /* HTJCFaceBaseSdk.framework in Frameworks */,
+				5755312B9ABDF802107219E94F113E2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA3DDB9B6F89D9C05DC4722E8702B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C4E375B37A5F3326B3EF0A9A7F044A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3CBC7287455F3BE45B69F3673ABA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96015B4FD6C08CDB2751074F1602C464 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0729C30307F4E482D52003D2D2AD4669 /* Pods-TPExFaceDetect_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				78A7E3C666E0F3E1B3665933E6D706A8 /* Info.plist */,
+				542C5DDF97021D7B607C8AA63E0E824F /* Pods-TPExFaceDetect_Tests.modulemap */,
+				EF7263F8EECC89064360CB75FDC00385 /* Pods-TPExFaceDetect_Tests-acknowledgements.markdown */,
+				D8705DECFCF6B56567D5F1EE76D30E1E /* Pods-TPExFaceDetect_Tests-acknowledgements.plist */,
+				7D4C8E58356449DF3C2BF57F0678B7EF /* Pods-TPExFaceDetect_Tests-dummy.m */,
+				1AA45C0F90B0C3ED08F50176A60E302D /* Pods-TPExFaceDetect_Tests-frameworks.sh */,
+				8F88BF3B155CDD5C4EB14E24A42E6302 /* Pods-TPExFaceDetect_Tests-resources.sh */,
+				7380A3FF88CEE5D0AE8AD6C16E35F3ED /* Pods-TPExFaceDetect_Tests-umbrella.h */,
+				BE4732454627CBAFB267BDD7E31EFCA8 /* Pods-TPExFaceDetect_Tests.debug.xcconfig */,
+				C0A776FB573ACB085F2470806C2CDB18 /* Pods-TPExFaceDetect_Tests.release.xcconfig */,
+			);
+			name = "Pods-TPExFaceDetect_Tests";
+			path = "Target Support Files/Pods-TPExFaceDetect_Tests";
+			sourceTree = "<group>";
+		};
+		08E01EE8AAC77FC5A1E7BEFB4937E030 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DEE8D107FD35DC8FD07B4E7977F4F7BD /* ReplaceMe.m */,
+				AE42BFA91E4ACACE00FD351E /* TPExFaceDetect.h */,
+				AE42BFAA1E4ACACE00FD351E /* TPExFaceDetect.mm */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3A3297AFA1FC4C2138EF8FE0C3A43431 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE7B45FC79E65F5C1A38445E6B41533D /* TPExFaceDetect */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		50713AED762F5FF4EA0048603531D614 /* TPExFaceDetect */ = {
+			isa = PBXGroup;
+			children = (
+				08E01EE8AAC77FC5A1E7BEFB4937E030 /* Classes */,
+			);
+			path = TPExFaceDetect;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3A3297AFA1FC4C2138EF8FE0C3A43431 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A730C849FD0C138C6EC83B932925D35A /* Products */,
+				E00B88A56093056164C56C01B5303018 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A730C849FD0C138C6EC83B932925D35A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A8AD0C5BC8329CC039980BD695E9F77 /* Pods_TPExFaceDetect_Example.framework */,
+				A25E5B74111642A510D901AD1E4B5FFC /* Pods_TPExFaceDetect_Tests.framework */,
+				83B2FBE7FB908EC5E56556614BDB70E8 /* TPExFaceDetect.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE42BFA51E4ACA9300FD351E /* HTJCFaceBaseSdk.framework */,
+				AE42BFA61E4ACA9300FD351E /* HTJCFaceLiveDetectSdk.framework */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE7B45FC79E65F5C1A38445E6B41533D /* TPExFaceDetect */ = {
+			isa = PBXGroup;
+			children = (
+				CAD69B73EF49209AA0247B76DA1B4650 /* Support Files */,
+				50713AED762F5FF4EA0048603531D614 /* TPExFaceDetect */,
+			);
+			name = TPExFaceDetect;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CAD69B73EF49209AA0247B76DA1B4650 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3746F7DBDD5674012C624827218FC56 /* Info.plist */,
+				2BA97C0A2211DF3F0E19EE68E6CB1338 /* TPExFaceDetect.modulemap */,
+				99B1294D8790EA65A1291ADECA095301 /* TPExFaceDetect.xcconfig */,
+				215259A970B72BE0DC4425A2C948FAE7 /* TPExFaceDetect-dummy.m */,
+				A0E53E8A8030C7EBC6D7433932101E70 /* TPExFaceDetect-prefix.pch */,
+				F1BE5A698733ABB9CE592FEB276056FF /* TPExFaceDetect-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TPExFaceDetect";
+			sourceTree = "<group>";
+		};
+		DA75FD2A9DFD448E89D7398D7139F990 /* Pods-TPExFaceDetect_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8AB9BA763183BFF616CAEBCF4AE8FE51 /* Info.plist */,
+				5354E17506D57219188748067F49476B /* Pods-TPExFaceDetect_Example.modulemap */,
+				9483630B90B9EEE3EFC988A041DBA133 /* Pods-TPExFaceDetect_Example-acknowledgements.markdown */,
+				782AD551D3E88BCE268D0A026759E191 /* Pods-TPExFaceDetect_Example-acknowledgements.plist */,
+				B94BA7E2AA4E29D43E81B8B5FFA42466 /* Pods-TPExFaceDetect_Example-dummy.m */,
+				F4E49FD504FA2E83C365F62AE322B50A /* Pods-TPExFaceDetect_Example-frameworks.sh */,
+				56790A48002E1BDC3F9349FC38B0F7CA /* Pods-TPExFaceDetect_Example-resources.sh */,
+				F9423493E07032739547D56F3BC6CCFF /* Pods-TPExFaceDetect_Example-umbrella.h */,
+				4ED3288D6D0BDF5C46BB8CDC2B597C1B /* Pods-TPExFaceDetect_Example.debug.xcconfig */,
+				5684417862B97486F18148837C59A28C /* Pods-TPExFaceDetect_Example.release.xcconfig */,
+			);
+			name = "Pods-TPExFaceDetect_Example";
+			path = "Target Support Files/Pods-TPExFaceDetect_Example";
+			sourceTree = "<group>";
+		};
+		E00B88A56093056164C56C01B5303018 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA75FD2A9DFD448E89D7398D7139F990 /* Pods-TPExFaceDetect_Example */,
+				0729C30307F4E482D52003D2D2AD4669 /* Pods-TPExFaceDetect_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		266FD3D932833782CD1D1BD551318BCC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56457C23604C2A55844264AD1F9F853A /* Pods-TPExFaceDetect_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62222C1ED21A5FA62595504BC589E9A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61DEDFBCF8AD61B1FAA7F1A4746D91A /* Pods-TPExFaceDetect_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70754DD8C0C3A58DA523EB6836C4416 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F544688AFB7D9F8B6B7218DAF92AD4 /* TPExFaceDetect-umbrella.h in Headers */,
+				AE42BFAB1E4ACACE00FD351E /* TPExFaceDetect.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		482BFF35FDA1E8ED891AE32D562CAFFC /* Pods-TPExFaceDetect_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C531E8E5B5608565194AE08907AEED /* Build configuration list for PBXNativeTarget "Pods-TPExFaceDetect_Tests" */;
+			buildPhases = (
+				389AD5C967E8FD49BCE594D15FBD01CF /* Sources */,
+				CF3CBC7287455F3BE45B69F3673ABA5B /* Frameworks */,
+				266FD3D932833782CD1D1BD551318BCC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TPExFaceDetect_Tests";
+			productName = "Pods-TPExFaceDetect_Tests";
+			productReference = A25E5B74111642A510D901AD1E4B5FFC /* Pods_TPExFaceDetect_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7660BB140AD168585FD2DDD0C9FB3261 /* TPExFaceDetect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31409E27582A8360AFE8F5A1E6007EB2 /* Build configuration list for PBXNativeTarget "TPExFaceDetect" */;
+			buildPhases = (
+				B6A99C9A5B8499258B39BEB189172FE8 /* Sources */,
+				0044E6950433FA3DD46F7F6BA479E909 /* Frameworks */,
+				E70754DD8C0C3A58DA523EB6836C4416 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPExFaceDetect;
+			productName = TPExFaceDetect;
+			productReference = 83B2FBE7FB908EC5E56556614BDB70E8 /* TPExFaceDetect.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7385353EDA8E3F613E340560870139A /* Pods-TPExFaceDetect_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E6FF05AFFEFEB87C342FBD076B2CB6 /* Build configuration list for PBXNativeTarget "Pods-TPExFaceDetect_Example" */;
+			buildPhases = (
+				571B054D788B2791F4466969611878EF /* Sources */,
+				5FA3DDB9B6F89D9C05DC4722E8702B30 /* Frameworks */,
+				62222C1ED21A5FA62595504BC589E9A7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				682E96301C581C74E9E011DDD6F410B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-TPExFaceDetect_Example";
+			productName = "Pods-TPExFaceDetect_Example";
+			productReference = 1A8AD0C5BC8329CC039980BD695E9F77 /* Pods_TPExFaceDetect_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A730C849FD0C138C6EC83B932925D35A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7385353EDA8E3F613E340560870139A /* Pods-TPExFaceDetect_Example */,
+				482BFF35FDA1E8ED891AE32D562CAFFC /* Pods-TPExFaceDetect_Tests */,
+				7660BB140AD168585FD2DDD0C9FB3261 /* TPExFaceDetect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		389AD5C967E8FD49BCE594D15FBD01CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552AF0FEF380636DE44CBC3B19E58AC8 /* Pods-TPExFaceDetect_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571B054D788B2791F4466969611878EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E37D0FEB83BB6AE4EB151D81D50DED9 /* Pods-TPExFaceDetect_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A99C9A5B8499258B39BEB189172FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE42BFAC1E4ACACE00FD351E /* TPExFaceDetect.mm in Sources */,
+				FC97679B47F5223C4E53EFD12865C6EA /* ReplaceMe.m in Sources */,
+				A8568D369BC7A6160AB1A476AEDF4418 /* TPExFaceDetect-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		682E96301C581C74E9E011DDD6F410B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPExFaceDetect;
+			target = 7660BB140AD168585FD2DDD0C9FB3261 /* TPExFaceDetect */;
+			targetProxy = 8F0AD61A02C3ECB79FE14DAAAEF3EEDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31363E6A37A98A5877C727AFC144654D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5684417862B97486F18148837C59A28C /* Pods-TPExFaceDetect_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPExFaceDetect_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPExFaceDetect_Example/Pods-TPExFaceDetect_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPExFaceDetect_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		402D80495471D332FEDF64AF257A1CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ED3288D6D0BDF5C46BB8CDC2B597C1B /* Pods-TPExFaceDetect_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPExFaceDetect_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPExFaceDetect_Example/Pods-TPExFaceDetect_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPExFaceDetect_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		671B3189B8AB48366BF0ACD3F67598B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B1294D8790EA65A1291ADECA095301 /* TPExFaceDetect.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPExFaceDetect/TPExFaceDetect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPExFaceDetect/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TPExFaceDetect/TPExFaceDetect.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TPExFaceDetect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A5C5E850DDC0254ED7A9259D2DB779A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A776FB573ACB085F2470806C2CDB18 /* Pods-TPExFaceDetect_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPExFaceDetect_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPExFaceDetect_Tests/Pods-TPExFaceDetect_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPExFaceDetect_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA2B9063CF3F9800D7AAFF09F8E7BEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE4732454627CBAFB267BDD7E31EFCA8 /* Pods-TPExFaceDetect_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPExFaceDetect_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPExFaceDetect_Tests/Pods-TPExFaceDetect_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPExFaceDetect_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F232D95E7BBDC498617D287233550445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B1294D8790EA65A1291ADECA095301 /* TPExFaceDetect.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPExFaceDetect/TPExFaceDetect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPExFaceDetect/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TPExFaceDetect/TPExFaceDetect.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TPExFaceDetect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31409E27582A8360AFE8F5A1E6007EB2 /* Build configuration list for PBXNativeTarget "TPExFaceDetect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671B3189B8AB48366BF0ACD3F67598B4 /* Debug */,
+				F232D95E7BBDC498617D287233550445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E6FF05AFFEFEB87C342FBD076B2CB6 /* Build configuration list for PBXNativeTarget "Pods-TPExFaceDetect_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402D80495471D332FEDF64AF257A1CA2 /* Debug */,
+				31363E6A37A98A5877C727AFC144654D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C531E8E5B5608565194AE08907AEED /* Build configuration list for PBXNativeTarget "Pods-TPExFaceDetect_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2B9063CF3F9800D7AAFF09F8E7BEAD /* Debug */,
+				A5C5E850DDC0254ED7A9259D2DB779A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

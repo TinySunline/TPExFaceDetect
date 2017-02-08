@@ -1,0 +1,6 @@
+framework module Pods_TPExFaceDetect_Example {
+  umbrella header "Pods-TPExFaceDetect_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
