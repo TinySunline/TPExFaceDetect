@@ -7,7 +7,6 @@
 //
 
 #import "TPExFaceDetectViewController.h"
-#import <TPExFaceDetect/TPExFaceDetect.h>
 
 @interface TPExFaceDetectViewController ()
 

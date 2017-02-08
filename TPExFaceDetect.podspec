@@ -34,9 +34,7 @@ TODO: Add long description of the pod here.
 
   s.vendored_frameworks = 'TPExFaceDetect/Assets/HTJCFaceBaseSdk.framework','TPExFaceDetect/Assets/HTJCFaceLiveDetectSdk.framework'
 
-  s.resource_bundles = {
-    'TPExFaceDetect' => ['TPExFaceDetect/Assets/HTJCData.bundle','TPExFaceDetect/Assets/HTJCDataBase.bundle']
-  }
+  s.resource_bundles = ['TPExFaceDetect/Assets/HTJCData.bundle','TPExFaceDetect/Assets/HTJCDataBase.bundle']
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
