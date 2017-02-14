@@ -1,6 +1,0 @@
-framework module TPExFaceDetect {
-  umbrella header "TPExFaceDetect-umbrella.h"
-
-  export *
-  module * { export * }
-}

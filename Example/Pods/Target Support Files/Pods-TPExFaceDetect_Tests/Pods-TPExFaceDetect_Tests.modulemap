@@ -1,6 +1,0 @@
-framework module Pods_TPExFaceDetect_Tests {
-  umbrella header "Pods-TPExFaceDetect_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
