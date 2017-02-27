@@ -183,7 +183,9 @@
         NSString *exFaceImgPath = [path stringByAppendingPathComponent:@"/exFaceImg.jpg"];
         BOOL success = [UIImageJPEGRepresentation(exFaceImg, 0.5) writeToFile:exFaceImgPath  atomically:YES];
         if(success){
-            NSString *bdata = [NSString stringWithFormat:@"{\"mMove\":\"%@\",\"mRezion\":\"%@\",\"imgPath\":\"%@\",\"isLivePassed\":\"%@\"}",@"",@"",exFaceImgPath,@"true"];
+            NSString *imgUrl=@"local://";
+            imgUrl = [imgUrl stringByAppendingString:exFaceImgPath];
+            NSString *bdata = [NSString stringWithFormat:@"{\"mMove\":\"%@\",\"mRezion\":\"%@\",\"imgPath\":\"%@\",\"isLivePassed\":\"%@\"}",@"",@"",imgUrl,@"true"];
             [self.success callWithArguments:@[bdata]];
         }
     }
